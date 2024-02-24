@@ -5,12 +5,13 @@ import CardPost from "../components/CardPost.jsx";
 import MainSidebar from "../components/MainSidebar.jsx";
 
 import React from 'react';
-import {usePostsLoader} from "../hooks/index.js";
+import {useCategories, usePostsLoader} from "../hooks/index.js";
 import {useSelector} from "react-redux";
 
 function Home() {
     // Ottengo i post e li salvo nello stato globale con un hook scritto da me
     usePostsLoader()
+    useCategories()
 
     // Recupero i post appena salvati nello stato globale
     const posts = useSelector(state => state.posts.posts)

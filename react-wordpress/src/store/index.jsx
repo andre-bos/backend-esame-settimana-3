@@ -1,14 +1,16 @@
 import {applyMiddleware, combineReducers, createStore} from 'redux'
 import {thunk} from "redux-thunk";
-import {postsReducer} from "../reducers";
+import {categoriesReducer, postsReducer} from "../reducers";
 
 const inititalState = {
-    posts: []
+    posts: [],
+    categories: []
 }
 
 const reducersCombiner = combineReducers({
 
-    posts: postsReducer
+    posts: postsReducer,
+    categories: categoriesReducer
 
 })
 

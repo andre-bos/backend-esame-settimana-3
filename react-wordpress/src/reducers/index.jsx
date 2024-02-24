@@ -12,4 +12,18 @@ function postsReducer(state = [], action) {
     return state
 }
 
-export {postsReducer}
+function categoriesReducer(state = [], action) {
+    switch (action.type) {
+        case 'GET_CATEGORIES':
+            return {
+                ...state,
+                categories: action.payload
+            }
+
+        default: break;
+    }
+
+    return state
+}
+
+export {postsReducer, categoriesReducer}

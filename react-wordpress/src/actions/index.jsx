@@ -11,4 +11,13 @@ const getAllPosts = () => {
     }
 };
 
-export  {getAllPosts};
+const getCategories = () => {
+    return (dispatch) => {
+        axios.get(baseEndpoint + 'categories').then(response => {
+            dispatch({ type: 'GET_CATEGORIES', payload: response.data })
+
+        }).catch(err => console.error(err));
+    };
+};
+
+export {getAllPosts, getCategories};

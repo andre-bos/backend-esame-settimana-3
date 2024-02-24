@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import {useDispatch} from 'react-redux';
-import {getAllPosts} from '../actions/index.jsx';
+import {getAllPosts, getCategories} from '../actions/index.jsx';
 
 const usePostsLoader = () => {
     const dispatch = useDispatch();
@@ -10,4 +10,11 @@ const usePostsLoader = () => {
     }, []);
 }
 
-export {usePostsLoader}
+const useCategories = () => {
+    const dispatch = useDispatch()
+
+    useEffect(() => {
+        dispatch(getCategories())
+    }, []);
+}
+export {usePostsLoader, useCategories}

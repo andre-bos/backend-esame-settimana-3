@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e47feca-fdc4-4f89-bdca-0dad94f362b6" name="Changes" comment="" />
+    <list default="true" id="1e47feca-fdc4-4f89-bdca-0dad94f362b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/actions/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/actions/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/components/CardPost.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/components/CardPost.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/hooks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/reducers/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/reducers/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-wordpress/src/store/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-wordpress/src/store/index.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +22,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Documents/Epicode/esame-settimana-11" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,6 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -52,7 +61,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
       </set>
     </attachedChunks>
   </component>
@@ -68,10 +77,17 @@
       <workItem from="1708421752192" duration="32000" />
       <workItem from="1708422033175" duration="1054000" />
       <workItem from="1708423141879" duration="41170000" />
+      <workItem from="1708602904155" duration="3541000" />
+      <workItem from="1708692447580" duration="55000" />
+      <workItem from="1708692526682" duration="11085000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
